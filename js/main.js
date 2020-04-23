@@ -77,11 +77,11 @@ function displaydata()
         <h4 class="text-muted">`+myData[i].CountryCode+`</h4>
         <div class="container">
         <div class="row">
-            <div class="col-4 mt-2">
+            <div class="col-5 mt-2">
               <h4  class="mt-2 text-black">حالات الشفاء الجديدة  </h4>
               <button class="btn btn-success rounded-lg mb-2 px-3 py-3">`+myData[i].NewRecovered+`</button>
             </div>
-            <div class="col-4 mt-2 ">
+            <div class="col-3 mt-2 ">
               <h4  class="mt-2 text-black ">الوفيات الجديدة  </h4>
               <button class="btn btn-dark  rounded-lg mb-3 px-3 py-3">`+myData[i].NewDeaths+`</button>
             </div>
@@ -89,11 +89,11 @@ function displaydata()
               <h4  class="mt-2 text-black"> الحالات الجديدة</h4>
               <button class="btn btn-danger rounded-lg mb-3 px-3 py-3">`+myData[i].NewConfirmed+`</button>
             </div>
-            <div class="col-4 mt-2">
+            <div class="col-5 mt-2">
               <h4  class="mt-2 text-black">إجمالي حالات الشفاء  </h4>
               <button class="btn btn-success rounded-lg mb-3 px-3 py-3">`+myData[i].TotalRecovered+`</button>
             </div>
-            <div class="col-4 mt-2">
+            <div class="col-3 mt-2">
               <h4  class="mt-2 text-black">إجمالي الوفيات  </h4>
               <button class="btn btn-dark rounded-lg mb-3 px-3 py-3">`+myData[i].TotalDeaths+`</button>
             </div>
@@ -133,11 +133,11 @@ for(let i=0;i<myData.length;i++)
         <h4 class="text-muted">`+myData[i].CountryCode+`</h4>
         <div class="container">
         <div class="row">
-            <div class="col-4 mt-2">
+            <div class="col-5 mt-2">
               <h4  class="mt-2 text-black">حالات الشفاء الجديدة  </h4>
               <button class="btn btn-success rounded-lg mb-2 px-3 py-3">`+myData[i].NewRecovered+`</button>
             </div>
-            <div class="col-4 mt-2 ">
+            <div class="col-3 mt-2 ">
               <h4  class="mt-2 text-black ">الوفيات الجديدة  </h4>
               <button class="btn btn-dark  rounded-lg mb-3 px-3 py-3">`+myData[i].NewDeaths+`</button>
             </div>
@@ -145,11 +145,11 @@ for(let i=0;i<myData.length;i++)
               <h4  class="mt-2 text-black"> الحالات الجديدة</h4>
               <button class="btn btn-danger rounded-lg mb-3 px-3 py-3">`+myData[i].NewConfirmed+`</button>
             </div>
-            <div class="col-4 mt-2">
+            <div class="col-5 mt-2">
               <h4  class="mt-2 text-black">إجمالي حالات الشفاء  </h4>
               <button class="btn btn-success rounded-lg mb-3 px-3 py-3">`+myData[i].TotalRecovered+`</button>
             </div>
-            <div class="col-4 mt-2">
+            <div class="col-3 mt-2">
               <h4  class="mt-2 text-black">إجمالي الوفيات  </h4>
               <button class="btn btn-dark rounded-lg mb-3 px-3 py-3">`+myData[i].TotalDeaths+`</button>
             </div>
