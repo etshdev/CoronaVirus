@@ -70,7 +70,7 @@ function displaydata()
     let content=``;
     for (let i=0; i<myData.length;i++)
     {
-        content+=` <div class="col-md-4  rounded-lg text-center mt-3 mb-3   " >
+        content+=` <div class="col-md-6 col-lg-4  rounded-lg text-center mt-3 mb-3   " >
         <div class="x text-center pt-4 pb-2  "> 
        
        <h3 class=" text-danger ">`+myData[i].Country+`</h3>
@@ -126,7 +126,7 @@ for(let i=0;i<myData.length;i++)
     if(myData[i].Country.toUpperCase().includes(term.toUpperCase())==true)
     {
         newtxt=myData[i].Country.toUpperCase().replace(term.toUpperCase(),'<span style="color:orange">'+term.toUpperCase()+'</span>')
-        content+=` <div class="col-md-4  rounded-lg text-center mt-3 mb-3   " >
+        content+=` <div class="col-md-6 col-lg-4  rounded-lg text-center mt-3 mb-3   " >
         <div class="x text-center pt-4 pb-2  "> 
        
        <h3 class=" text-danger ">`+newtxt+`</h3>
