@@ -1,0 +1,46 @@
+body
+{
+    background-image:url('images/3599611.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+
+nav a
+{
+    font-weight: 800;
+    color: white !important;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+.x
+{
+    /* border:black  double 5px; */
+    border-radius: 3px;
+    background-image: url('images/122.jpg');
+    background-size: 100% 100%;
+}
+
+h4{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+i
+{
+    font-size: 60px;
+}
+button
+{
+    font-weight: 500 !important;
+  
+}
+
+.total
+{
+    background-image: url('images/122.jpg');
+    background-size: 100% 100%; 
+}
